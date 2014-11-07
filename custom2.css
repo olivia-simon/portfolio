@@ -1,12 +1,13 @@
 body {
-	margin-bottom: 20px;
+	
 	margin-top: 50px;
+
 	
 }
 
 .box1 {
 	border-style: solid;
-	border-color:  #CCCCCC;
+	border-color:  #CCC;
 	border-radius: 5px;
 	padding: 10px;
 	margin-top: 10px;
@@ -30,7 +31,12 @@ a:link {
 }
 
 .submit {
-	margin-top: 100px
+	margin-top: 100px;
+	position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .top-button {
@@ -58,11 +64,54 @@ a:link {
 }
 
 .area2 {
-	  background: url(img/tutoring.png) no-repeat center center fixed; 
+	  background: url(img/cafe.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-bottom: 20px
 
 }
+
+
+.area3 {
+	  background: url(img/editing.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+
+}
+.quote {
+	background-color: #3498db;
+	margin-bottom: 20px;
+	position: relative;
+  	top: 50%; 
+
+	height: 300px;
+
+}
+
+.quote2 {
+	background-color: #3498db;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+.space {
+	padding: 20px;
+}
+
+
+
+
+.apple {
+	background-color: #3498db;
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+	
